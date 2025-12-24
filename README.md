@@ -1,2 +1,1 @@
-# tujo
-TuJo - TCG Turn Journal
+# TuJo - TCG Turn Journal
