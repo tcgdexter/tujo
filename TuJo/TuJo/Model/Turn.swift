@@ -8,6 +8,7 @@
 import Foundation
 import SwiftData
 
+@Model
 class Turn {
     var id: UUID = UUID()
     

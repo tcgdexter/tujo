@@ -36,13 +36,4 @@ class Match {
     }
 }
 
-enum Player {
-    case player1, player2
-    
-    var label: String {
-        switch self {
-        case .player1: "Player 1"
-        case .player2: "Player 2"
-        }
-    }
-}
+
