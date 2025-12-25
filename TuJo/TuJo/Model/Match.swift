@@ -16,9 +16,18 @@ class Match {
     
     var trackingOpponent: Bool = false
     var turnNumber: Int = 0
-    var winner: Player?
+    
+    var player1HasSpecialCondition: Bool = false
+    var player2HasSpecialCondition: Bool = false
+    var showingCheckupAlert: Bool = false
+    
+    var winner: Player? = nil
     
     init() { }
+    
+    func completeCheckUpAlert() {
+        showingCheckupAlert = false
+    }
     
     func nextTurn() {
         turnNumber += 1

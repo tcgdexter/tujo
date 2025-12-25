@@ -15,11 +15,11 @@ class Turn {
     var hasDrawn: Bool = false
     var hasAttachedEnergyFromHand: Bool = false
     var hasAttacked: Bool = false
-    var hasPerformedCheckup: Bool = false
     var hasPlayedSupporter: Bool = false
     var hasPlayedStadium: Bool = false
     var hasRetreated: Bool = false
     var itemsPlayed: Int = 0
+    var prizeCardsTaken: Int = 0
 
     var turnNumber: Int
     
